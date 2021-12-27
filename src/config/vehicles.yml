@@ -1,0 +1,163 @@
+---
+
+- type: Buggy
+  weight: Light
+  hull: 6
+  handling: 4
+  max_gear: 6
+  crew: 2
+  build_slots: 2
+  cost: 6
+  rules:
+    - name: Arceaux
+
+- type: Car
+  weight: Middle
+  hull: 10
+  handling: 3
+  max_gear: 5
+  crew: 2
+  build_slots: 2
+  cost: 12
+  rules:
+
+- type: Performance Car
+  weight: Middle
+  hull: 8
+  handling: 4
+  max_gear: 6
+  crew: 1
+  build_slots: 2
+  cost: 15
+  rules:
+
+- type: Truck
+  weight: Middle
+  hull: 12
+  handling: 2
+  max_gear: 4
+  crew: 3
+  build_slots: 3
+  cost: 15
+  rules:
+  
+- type: Heavy Truck
+  weight: Heavy
+  hull: 14
+  handling: 2
+  max_gear: 3
+  crew: 8
+  build_slots: 5
+  cost: 25
+  rules:
+  
+- type: Bus
+  weight: Heavy
+  hull: 16
+  handling: 2
+  max_gear: 3
+  crew: 8
+  build_slots: 3
+  cost: 30
+  rules:
+
+- type: Drag Racer
+  weight: Light
+  hull: 4
+  handling: 4
+  max_gear: 6
+  crew: 1
+  build_slots: 2
+  cost: 5
+  rules:
+
+- type: Bike
+  weight: Light
+  hull: 4
+  handling: 5
+  max_gear: 6
+  crew: 1
+  build_slots: 1
+  cost: 5
+  rules:
+
+- type: Bike with Sidecar
+  weight: Light
+  hull: 4
+  handling: 5
+  max_gear: 6
+  crew: 2
+  build_slots: 2
+  cost: 8
+  rules:
+
+- type: Ice-cream Truck
+  weight: Middle
+  hull: 10
+  handling: 2
+  max_gear: 4
+  crew: 2
+  build_slots: 2
+  cost: 8
+  rules:
+  
+- type: Gyrocopter
+  weight: Middle
+  hull: 4
+  handling: 4
+  max_gear: 6
+  crew: 1
+  build_slots: 0
+  cost: 10
+  rules:
+  
+- type: Ambulance
+  weight: Middle
+  hull: 12
+  handling: 2
+  max_gear: 5
+  crew: 3
+  build_slots: 3
+  cost: 20
+  rules:
+
+- type: Monster Truck
+  weight: Heavy
+  hull: 10
+  handling: 3
+  max_gear: 4
+  crew: 2
+  build_slots: 2
+  cost: 25
+  rules:
+
+- type: Helicopter
+  weight: Heavy
+  hull: 8
+  handling: 3
+  max_gear: 4
+  crew: 3
+  build_slots: 4
+  cost: 30
+  rules:
+  
+- type: Tank
+  weight: Heavy
+  hull: 20
+  handling: 4
+  max_gear: 3
+  crew: 3
+  build_slots: 4
+  cost: 40
+  rules:
+  
+- type: War Rig
+  weight: Heavy
+  hull: 26
+  handling: 2
+  max_gear: 4
+  crew: 5
+  build_slots: 5
+  cost: 40
+  rules:
+  

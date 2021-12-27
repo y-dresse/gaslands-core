@@ -1,0 +1,55 @@
+---
+
+- name: Airborn
+  description: Lorsque ce véhicule part en Tonneau, il peut choisir d’ignorer les deux dégâts causés par le Tonneau.
+
+- name: Dérobade
+  description:  Si ce véhicule est pris pour cible par un Éperonnage latéral ou arrière et qu’il annonce une Esquive comme réaction, il peut effectuer une activation gratuite immédiatement après la fin de l’activation du véhicule actif.
+
+- name: Stimulant
+  description:  Si ce véhicule est impliqué dans une Collision et que les deux véhicules annoncent une 
+    Esquive, les deux véhicules doivent monter d’une Vitesse juste après la résolution de la 
+    Collision (et prendre un Jeton Danger, comme à l’accoutumée). Si l’un des véhicules se trouve 
+    déjà à sa Vitesse maximale, le changement de Vitesse n’affecte pas la Vitesse actuelle du 
+    véhicule, mais il prend quand même un Jeton Danger.
+
+- name: Tranquilisant
+  description:  Si ce véhicule est impliqué dans une Collision lors de son activation et qu’il 
+    annonce un Éperonnage, le véhicule cible ne prend pas de Jeton Danger du fait 
+    de la Collision mais à la place défausse 2 Jetons Danger. Réduisez ensuite de 
+    1 la Valeur d’Équipage du véhicule ciblé jusqu’à la fin de la Phase de Vitesse.
+
+- name: Moteur à réaction
+  description:     
+      
+- name: Aérien
+  description:     
+      
+- name: Voltige
+  description:     
+      
+- name: Bombardement
+  description:     
+      
+- name: Tout-Terrain
+  description: Ce véhicule peut ignorer les pénalités lorsqu’il roule sur des terrains Difficiles ou Dangereux. 
+      
+- name: Plein gaz
+  description:     
+      
+- name: Pivot
+  description:Au début de l’activation du véhicule, s’il est en Vitesse 1, il peut pivoter dans n’importe quelle 
+    direction autour de son centre de rotation. Ce pivot ne peut pas déclencher de Collision et ne 
+    peut pas laisser le véhicule en contact avec un obstacle.
+
+- name: Tourelle
+  description: Ce véhicule peut considérer une de ses armes comme étant montée sur Tourelle, sans avoir à 
+    payer le coût de l’amélioration.
+
+- name: Franchissement
+  description: Lors de l’Étape de Déplacement de ce véhicule, après avoir résolu une Collision avec un 
+    obstacle de Poids inférieur, ce véhicule peut annoncer qu’il le Franchit. S’il le fait, il peut 
+    ignorer l’obstacle pour le restant de son Étape de Déplacement dans la mesure où il roule 
+    littéralement dessus. Ce véhicule ne peut pas utiliser cette capacité pour ignorer un autre 
+    véhicule ayant également la règle spéciale Franchissement
+          
