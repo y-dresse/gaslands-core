@@ -18,7 +18,6 @@ describe('Vehicle Test', () => {
     it('should open a list vehicle from file', () => {
         // Act
         const vehicles = Vehicle.openVehicles();
-        console.log(vehicles)
         // Assert
         expect(vehicles).is.instanceOf(Array);
     });
